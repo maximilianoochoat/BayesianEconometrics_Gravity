@@ -1,0 +1,16 @@
+model,parameter,effect_type,mean,sd,p025,p975,pr_gt_zero
+m5,rho,short_run, 0.429022, 0.001166, 0.426773, 0.431355, 1.000000
+m5,common_lac_lac,short_run,-0.125257, 0.048684,-0.220594,-0.028800, 0.003750
+m5,common_lac_nonlac,short_run, 0.024512, 0.019466,-0.013798, 0.062881, 0.900250
+m5,common_nonlac_lac,short_run, 0.025450, 0.019499,-0.012036, 0.063910, 0.898500
+m5,common_lac_lac_fta,short_run,-0.029041, 0.086368,-0.196574, 0.138434, 0.377000
+m5,common_lac_nonlac_fta,short_run, 0.126121, 0.052053, 0.023710, 0.228649, 0.994250
+m5,common_nonlac_lac_fta,short_run,-0.035291, 0.052955,-0.138706, 0.068535, 0.252000
+m5,common_fta,short_run,-0.015195, 0.014660,-0.043558, 0.014301, 0.146500
+m5,LR_common_lac_lac,long_run,-0.219375, 0.085271,-0.386648,-0.050359, 0.003750
+m5,LR_common_lac_nonlac,long_run, 0.042931, 0.034094,-0.024194, 0.109970, 0.900250
+m5,LR_common_nonlac_lac,long_run, 0.044574, 0.034153,-0.021094, 0.111952, 0.898500
+m5,LR_common_lac_lac_fta,long_run,-0.050858, 0.151249,-0.344567, 0.242474, 0.377000
+m5,LR_common_lac_nonlac_fta,long_run, 0.220888, 0.091169, 0.041525, 0.400863, 0.994250
+m5,LR_common_nonlac_lac_fta,long_run,-0.061803, 0.092741,-0.242759, 0.120168, 0.252000
+m5,LR_common_fta,long_run,-0.026610, 0.025674,-0.076341, 0.025003, 0.146500

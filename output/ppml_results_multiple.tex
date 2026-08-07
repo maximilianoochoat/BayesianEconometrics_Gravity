@@ -1,0 +1,43 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{PPML Estimates with Pair and Year Fixed Effects}
+\begin{tabular}{l*{7}{c}}
+\hline\hline
+          &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         &\multicolumn{1}{c}{(7)}         \\
+\hline
+GFI\_t × LAC - intraregion&   -0.299\sym{***}&                  &   -0.292\sym{***}&   -0.357\sym{***}&   -0.357\sym{***}&   -0.538\sym{***}&   -0.342\sym{***}\\
+          &  (0.058)         &                  &  (0.058)         &  (0.093)         &  (0.093)         &  (0.127)         &  (0.115)         \\
+[1em]
+GFI\_t × LAC - partner&                  &    0.036         &                  &                  &                  &                  &                  \\
+          &                  &  (0.050)         &                  &                  &                  &                  &                  \\
+[1em]
+GFI\_t × LAC - exporter&                  &                  &    0.032         &                  &   -0.077         &   -0.173         &   -0.121         \\
+          &                  &                  &  (0.086)         &                  &  (0.119)         &  (0.172)         &  (0.075)         \\
+[1em]
+GFI\_t × LAC - importer&                  &                  &    0.106\sym{**} &                  &    0.080         &   -0.087         &    0.179         \\
+          &                  &                  &  (0.050)         &                  &  (0.065)         &  (0.114)         &  (0.111)         \\
+[1em]
+GFI\_t × LAC - intraregion × FTA&                  &                  &                  &    0.116         &    0.130         &    0.084         &    0.268         \\
+          &                  &                  &                  &  (0.109)         &  (0.109)         &  (0.151)         &  (0.166)         \\
+[1em]
+GFI\_t × FTA&                  &                  &                  &   -0.091\sym{***}&   -0.105\sym{***}&   -0.073\sym{**} &    0.157\sym{***}\\
+          &                  &                  &                  &  (0.025)         &  (0.024)         &  (0.035)         &  (0.061)         \\
+[1em]
+GFI\_t × LAC - exporter × FTA&                  &                  &                  &                  &    0.223\sym{*}  &    0.414\sym{**} &    0.050         \\
+          &                  &                  &                  &                  &  (0.125)         &  (0.169)         &  (0.111)         \\
+[1em]
+GFI\_t × LAC - importer × FTA&                  &                  &                  &                  &    0.053         &    0.189         &   -0.051         \\
+          &                  &                  &                  &                  &  (0.097)         &  (0.128)         &  (0.128)         \\
+\hline
+Observations&   692353         &   692353         &   692353         &   692353         &   692353         &   400479         &   287749         \\
+Country-pair clusters&    41771         &    41771         &    41771         &    41771         &    41771         &    39072         &    34502         \\
+Pseudo R-squared&    0.980         &    0.980         &    0.980         &    0.980         &    0.980         &    0.989         &    0.989         \\
+Pair FE   &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         \\
+Year FE   &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         &      Yes         \\
+\hline\hline
+\multicolumn{8}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{8}{l}{\footnotesize Cluster-robust standard errors are clustered at the country-pair level.}\\
+\multicolumn{8}{l}{\footnotesize Pair and year fixed effects are included in all specifications. Constants are not reported.}\\
+\multicolumn{8}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
